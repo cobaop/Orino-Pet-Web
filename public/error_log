@@ -1,0 +1,47 @@
+[19-Jun-2025 17:00:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "session" does not exist in /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct()
+#1 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#2 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve()
+#3 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make()
+#5 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1066): Illuminate\Foundation\Application->make()
+#6 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(982): Illuminate\Container\Container->resolveClass()
+#7 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#8 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#9 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve()
+#10 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#11 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make()
+#12 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(255): Illuminate\Foundation\Application->make()
+#13 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(213): Illuminate\Foundation\Http\Kernel->terminateMiddleware()
+#14 /home/orinopet/public_html/public/index.php(55): Illuminate\Foundation\Http\Kernel->terminate()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [session] does not exist. in /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#1 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve()
+#2 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make()
+#4 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1066): Illuminate\Foundation\Application->make()
+#5 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(982): Illuminate\Container\Container->resolveClass()
+#6 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(943): Illuminate\Container\Container->resolveDependencies()
+#7 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#8 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve()
+#9 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#10 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make()
+#11 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(255): Illuminate\Foundation\Application->make()
+#12 /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(213): Illuminate\Foundation\Http\Kernel->terminateMiddleware()
+#13 /home/orinopet/public_html/public/index.php(55): Illuminate\Foundation\Http\Kernel->terminate()
+#14 {main}
+  thrown in /home/orinopet/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[15-Jul-2025 13:30:11 UTC] PHP Warning:  include(/home/orinopet/public_html/vendor/composer/../fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/orinopet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Jul-2025 13:30:11 UTC] PHP Warning:  include(): Failed opening '/home/orinopet/public_html/vendor/composer/../fakerphp/faker/src/Faker/Factory.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/orinopet/public_html/vendor/composer/ClassLoader.php on line 576
+[15-Jul-2025 13:30:11 UTC] PHP Warning:  require(/home/orinopet/public_html/vendor/composer/../spatie/flare-client-php/src/helpers.php): Failed to open stream: No such file or directory in /home/orinopet/public_html/vendor/composer/autoload_real.php on line 41
+[15-Jul-2025 13:30:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/orinopet/public_html/vendor/composer/../spatie/flare-client-php/src/helpers.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/orinopet/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/orinopet/public_html/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/orinopet/public_html/vendor/autoload.php(25): ComposerAutoloaderInit9ca66035a82b51b2f806c111e344b70b::getLoader()
+#2 /home/orinopet/public_html/public/index.php(34): require('/home/orinopet/...')
+#3 {main}
+  thrown in /home/orinopet/public_html/vendor/composer/autoload_real.php on line 41

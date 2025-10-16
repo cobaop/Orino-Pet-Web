@@ -1,0 +1,41 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Ignore route web.php
+/routes/web.php
+
+# Ignore all Blade views
+/resources/views/*
+!/resources/views/.gitkeep
+
+# Ignore all Eloquent models
+/app/Models/*
+!/app/Models/.gitkeep
+
+# Ignore all Controllers
+/app/Http/Controllers/*
+!/app/Http/Controllers/.gitkeep
+
+# Ignore all Database Seeders
+/database/seeders/*
+!/database/seeders/.gitkeep
+
+# Ignore all Database Migrations
+/database/migrations/*
+!/database/migrations/.gitkeep

@@ -1,0 +1,93 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Kartu Detail Transaksi */
+.detail-card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.info-value {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+/* Badge dan Button */
+.badge {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+}
+
+.btn-warning,
+.btn-dark {
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.btn-back {
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+/* Produk */
+.produk-card {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.produk-details {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.produk-details .no-pesanan {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.produk-details .layanan {
+    color: #555;
+}
+
+.produk-price {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Link Custom */
+.custom-link {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.custom-link:focus,
+.custom-link:hover,
+.custom-link:active {
+    color: inherit;
+}
+
+/* Blok Kucing */
+.kucing-block {
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
+    padding-top: 15px;
+}
